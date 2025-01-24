@@ -60,6 +60,9 @@ source-includes = [
   "CONTRIBUTING.txt",
 ]
 
+[tool.pdm.resolution.overrides]
+pyvcd = "git+https://github.com/eigenform/pyvcd.git@amaranth-scopes"
+
 # Development workflow configuration
 
 [tool.pdm.dev-dependencies]
